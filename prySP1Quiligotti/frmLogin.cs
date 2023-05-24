@@ -40,6 +40,7 @@ namespace prySP1Quiligotti
                 f.Text = txtUsuario.Text; // Asigna el texto de titulo
                 f.ShowDialog(); // Ejecuta y visualiza el frmInicio
                 this.Show(); // Muestra otra vez este formulario
+                intentos = 0;
             }
             else
             {
